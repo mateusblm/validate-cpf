@@ -1,5 +1,5 @@
 """
-CPF = 168.995.350-09 - Exemplo
+CPF = 168.995.350-09 - Example
 ------------------------------------------------
 1 * 10 = 10           #    1 * 11 = 11 <-
 6 * 9  = 54           #    6 * 10 = 60
@@ -14,12 +14,12 @@ CPF = 168.995.350-09 - Exemplo
          297          #             343
 11 - (297 % 11) = 11  #     11 - (343 % 11) = 9
 11 > 9 = 0            #
-Digito 1 = 0          #   Digito 2 = 9
+Digit 1 = 0          #   Digit 2 = 9
 """
 
 # Loop
 while True:
-    cpf = input("Digite um CPF para ser checado(sem - ou .):  ")
+    cpf = input("Type the CPF you want to check(without - or .):  ")
     new_cpf = cpf[:-2]
     reverse = 10
     total = 0
@@ -41,6 +41,6 @@ while True:
             new_cpf += str(d)
 
     if cpf == new_cpf:
-        print(f"{new_cpf} é Valido")
+        print(f"{new_cpf} its valid")
     else:
-        print(f"{new_cpf} é Invalido")
+        print(f"{new_cpf} its invalid")
