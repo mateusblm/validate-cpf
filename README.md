@@ -1,2 +1,2 @@
 # ValidateCPF
-# A simple system of validation of CPF using python!
+# A simple system about validation of CPF using python!
